@@ -1,7 +1,7 @@
 import org.eclipse.paho.client.mqttv3.*;
 import java.util.Scanner;
 
-public class Main {
+public class App {
 
     private static final String BROKER = "tcp://broker.hivemq.com:1883"; // URL del broker MQTT
     private static final String CLIENT_ID = "HeladeraReceptorApp";           // Identificador único del cliente
